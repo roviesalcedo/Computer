@@ -1,0 +1,138 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	padding: 0px;
+}
+
+.text {
+	opacity: 1;
+	text-align: center;
+	font-size: 25;
+}
+
+.left {
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+	grid-gap: 10px;
+}
+
+.right {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.one {
+	background-size: cover;
+	background-image: url(../photo/order1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 50vh;
+	opacity: 0.5;
+	font-size: 50;
+}
+
+.two {
+	background-size:cover;
+	background-image: url(../photo/order2.jpg);
+	background-repeat: no repeat;
+	background-position: center;
+	opacity: 0.5;
+	height:100vh;
+}
+.text2 {
+	opacity:1;
+	text-align: center;
+}
+
+.three {
+	background-image: url(../photo/order3.jpg);
+	background-size: cover;
+	background-repeat: no repeat;
+	background-position: center
+	height: 50vh;
+	opacity: 0.5;
+}
+.text3 {
+	opacity:1;
+	text-align: center;
+}
+.four {
+	background-image: url(../photo/order4.jpg);
+	background-size: cover;
+	background-repeat: no repeat;
+	background-position: center;
+	height: 50vh;
+	opacity:0.5;	
+}
+.text4 {
+	opacity:1;
+	text-align: center;
+}
+
+.five {
+	background: url(../photo/order6.jpg);
+	background-repeat: no repeat;
+	background-position:center;
+	background-size: cover;
+	height: 50vh;
+	width:70;
+	opacity:0.5
+}
+.text5 {
+	opacity: 1;
+	text-align: center;
+}
+
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+	padding: 0;
+}
+.menu>a{
+	background:pink;
+}
+.menu li:hover {
+	background: black;
+	border: 2px white solid;
+	color: pink;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+li{
+	border: 2px skyblue solid;
+	color: #491C06;
+	padding: 20px;
+	font-size: 20px;
+	padding: 10px;
+	background.: pink;
+	border: white;
+	color: 5px white solid;
+	text-align: center;
+	font-family: impact;
+	border-radius: 6px;
+	list-style: none;
+}
+
+.title {
+	border: 2px white solid;
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+	padding: 10px;
+	background: pink;
+	color: 5px white solid;
+	text-align: center;
+	font-family: impact;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
